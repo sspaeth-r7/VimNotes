@@ -8,7 +8,7 @@
 ## Markers
 - Set a marker: `mx`
   - Where `x` is a character to name marker
-- Navigate to exact location of marker: `\`x`
+- Navigate to exact location of marker: \`x (I couldn't escape this at the beginning of a codeblock)
 - Navigate to beginning of line of marker: `'x`
 - An uppercase and lowercase marker are distinct
 
