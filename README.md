@@ -1,9 +1,9 @@
 # VimNotes
 ## Deletion
 - Delete quoted string (incl. quotes): `da"`
-  - Select "*a*"n object including white space
+  - Select "a"n object including white space
 - Delete contents of quoted string: `di"`
-  - Select an "*i*"nner object without white space
+  - Select an "i"nner object without white space
 
 ## Markers
 - Set a marker: `mx`
