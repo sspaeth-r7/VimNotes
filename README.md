@@ -23,3 +23,7 @@
   - Apply from first to current line: `:1,.s/foo/bar`
   - Apply from current to last line: `:.,$s/foo/bar`
   - Apply from current to marker line: `:.,'xs/foo/bar`
+
+## Numbers
+- Increment selected number: `^a`
+- Decrement selected number: `^x`
