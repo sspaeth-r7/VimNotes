@@ -6,6 +6,8 @@
   - Select an "i"nner object without white space
 - Delete entire code block: `d%`
   - With cursor at beginning of first line
+- Delete from current line to EOF: `dG`
+- Delete from current line to BOF: `dgg`
 
 ## Navigation
 ### Markers
@@ -27,3 +29,6 @@
 ## Numbers
 - Increment selected number: `^a`
 - Decrement selected number: `^x`
+
+## Miscellaneous
+- Pretty prent a JSON file open in the editor: `:%!python -m json.tool`
