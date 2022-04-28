@@ -10,6 +10,8 @@
 - Delete from current line to BOF: `dgg`
 
 ## Navigation
+- Move cursor to previous location: `^o`
+
 ### Markers
 - Set a marker: `mx`
   - Where `x` is a character to name marker
