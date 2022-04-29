@@ -34,3 +34,4 @@
 
 ## Miscellaneous
 - Pretty prent a JSON file open in the editor: `:%!python -m json.tool`
+- Delete a word and enter insert mode "'c'hange 'w'ord": `cw`
