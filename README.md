@@ -39,6 +39,10 @@
 - Increment selected number: `^a`
 - Decrement selected number: `^x`
 
+## Substitution
+- When doing a find and replace, add a `c` to confirm each substitution
+  - For example, `:%s/foo/bar/gc`
+
 ## Miscellaneous
 - Pretty prent a JSON file open in the editor: `:%!python -m json.tool`
 - Delete a word and enter insert mode "'c'hange 'w'ord": `cw`
