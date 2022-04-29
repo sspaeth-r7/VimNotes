@@ -48,6 +48,7 @@ Folds in vim are ways to hide blocks of text/code when you don't need to see the
 In other words, this feature allows you to "collapse" a function.
 - Create and collapse a 'f'old: `zf`
   - This expects that you've selected the text you'd like to fold in visual block mode
+
 By placing your cursor on any part of an existing fold, you can:
 - Collapse or 'c'lose the fold: `zc`
 - Expand or 'o'pen the fold: `zo`
