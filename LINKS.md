@@ -1,0 +1,1 @@
+- https://stackoverflow.com/questions/28284276/how-i-can-show-the-time-in-vim-status-bar
