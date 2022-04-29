@@ -1,6 +1,10 @@
 # VimNotes
 ## Visual Mode
 - Reselect last visual block mode selection: `gv`
+- Select entire current line: `V`
+  - Can be used in both visual and command modes
+  - When used in visual mode, all lines with at least 1 selected character will be selected in full
+  - When used in command mode, whatever line the cursor is on will be used for selection
 
 ## Deletion
 - Delete quoted string (incl. quotes): `da"`
@@ -38,3 +42,4 @@
 ## Miscellaneous
 - Pretty prent a JSON file open in the editor: `:%!python -m json.tool`
 - Delete a word and enter insert mode "'c'hange 'w'ord": `cw`
+  - Deletes everything right of cursor, so if you want to replace an entire word, run at beginning of it
