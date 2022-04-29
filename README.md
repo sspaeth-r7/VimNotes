@@ -1,4 +1,7 @@
 # VimNotes
+## Visual Mode
+- Reselect last visual block mode selection: `gv`
+
 ## Deletion
 - Delete quoted string (incl. quotes): `da"`
   - Select "a"n object including white space
