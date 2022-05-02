@@ -5,12 +5,16 @@
   - Can be used in both visual and command modes
   - When used in visual mode, all lines with at least 1 selected character will be selected in full
   - When used in command mode, whatever line the cursor is on will be used for selection
+- Select quoted string (incl. quotes): `va"`
+  - Select 'a'll/'a'n of object including white space
+- Select contents of quoted string: `vi"`
+  - Select an 'i'nner object without white space
 
 ## Deletion
 - Delete quoted string (incl. quotes): `da"`
-  - Select 'a'n object including white space
+  - Delete 'a'll/'a'n of object including white space
 - Delete contents of quoted string: `di"`
-  - Select an 'i'nner object without white space
+  - Delete an 'i'nner object without white space
 - Delete entire code block: `d%`
   - With cursor at beginning of first line
 - Delete from current line to EOF: `dG`
