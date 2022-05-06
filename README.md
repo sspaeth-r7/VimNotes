@@ -22,6 +22,8 @@
 
 ## Navigation
 - Move cursor to previous location: `^o`
+- Jump to previous empty line: `{`
+- Jump to next empty line: `}`
 
 ### Markers
 - Set a marker: `mx`
