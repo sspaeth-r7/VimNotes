@@ -64,3 +64,4 @@ By placing your cursor on any part of an existing fold, you can:
 - Delete a word and enter insert mode "'c'hange 'w'ord": `cw`
   - Deletes everything right of cursor, so if you want to replace an entire word, run at beginning of it
   - Same idea applies to anything else, for instance: `ci{` or `ca(`
+- Swap current and line below: `ddp`
