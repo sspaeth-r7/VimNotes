@@ -19,6 +19,12 @@
   - With cursor at beginning of first line
 - Delete from current line to EOF: `dG`
 - Delete from current line to BOF: `dgg`
+- Delete all blank lines in file: `:%!grep .`
+  - Works because `.` is regex for any one character
+  - Won't necessarily work on Windows (but who cares)
+  - There are other ways to do this in vim, but this is memorable and versatile
+- Delete blank lines in range: `:1,5!grep .`
+- Delete blank lines in marker range: `:'x,.!grep .`
 
 ## Navigation
 - Move cursor to previous location: `^o`
