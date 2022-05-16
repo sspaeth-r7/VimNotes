@@ -25,6 +25,8 @@
   - There are other ways to do this in vim, but this is memorable and versatile
 - Delete blank lines in range: `:1,5!grep .`
 - Delete blank lines in marker range: `:'x,.!grep .`
+- Replace multiple blank lines with one: `:%!cat -s`
+  - From the `cat` manpage: `-s : Squeeze multiple adjacent empty lines, causing the output to be single spaced.`
 
 ## Navigation
 - Move cursor to previous location: `^o`
