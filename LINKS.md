@@ -1,1 +1,2 @@
 - https://stackoverflow.com/questions/28284276/how-i-can-show-the-time-in-vim-status-bar
+- https://www.freecodecamp.org/news/7-vim-tips-that-changed-my-life/
