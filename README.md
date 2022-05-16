@@ -24,6 +24,9 @@
 - Move cursor to previous location: `^o`
 - Jump to previous empty line: `{`
 - Jump to next empty line: `}`
+- Jump to auto indent and enter insert mode: `S`
+  - Rather than inserting at the beginning of the line, this will insert where the line *should* begin
+- Find case-insensitively: `/word\c`
 
 ### Markers
 - Set a marker: `mx`
@@ -48,6 +51,17 @@
 ## Substitution
 - When doing a find and replace, add a `c` to confirm each substitution
   - For example, `:%s/foo/bar/gc`
+
+### Capitalization
+Adapt the following examples as needed:
+- ~    : Changes the case of current character
+- g~~  : Invert case to entire line
+- g~w  : Invert case from cursor to end of word
+- g~iw : Invert case of entire current word
+- g~G  : Invert case for rest of file
+- guG  : Change to lowercase for rest of file
+- gU)  : Change until end of sentence to upper case
+- gu}  : Change to end of paragraph to lower case
 
 ## Folding
 Folds in vim are ways to hide blocks of text/code when you don't need to see them.
