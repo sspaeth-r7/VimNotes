@@ -46,12 +46,6 @@
 ### Code
 - Jump to matching bracket: `%`
 
-## Ranges
-- In place of using a `%` in a substitution command (such as `:%s/foo/bar`), you can use ranges
-  - Apply from first to current line: `:1,.s/foo/bar`
-  - Apply from current to last line: `:.,$s/foo/bar`
-  - Apply from current to marker line: `:.,'xs/foo/bar`
-
 ## Numbers
 - Increment selected number: `^a`
 - Decrement selected number: `^x`
@@ -59,6 +53,12 @@
 ## Substitution
 - When doing a find and replace, add a `c` to confirm each substitution
   - For example, `:%s/foo/bar/gc`
+
+### Ranges
+- In place of using a `%` in a substitution command (such as `:%s/foo/bar`), you can use ranges
+  - Apply from first to current line: `:1,.s/foo/bar`
+  - Apply from current to last line: `:.,$s/foo/bar`
+  - Apply from current to marker line: `:.,'xs/foo/bar`
 
 ### Capitalization
 Adapt the following examples as needed:
@@ -70,6 +70,14 @@ Adapt the following examples as needed:
 - `guG`  : Change to lowercase for rest of file
 - `gU)`  : Change until end of sentence to upper case
 - `gu}`  : Change to end of paragraph to lower case
+
+## Windowing
+Vim can be used as a terminal emulator multiplexer. Primarily, this is for viewing multiple files at once,
+but could also be used for having both terminal(s) and file(s) open in one vim process.
+- Open a new vim window below (split screen "hot dog"): `^ws`
+- Open a new vim window beside (split screen "hamburger"): `^wv`
+- Open a new terminal above (split screen "hot dog"): `:term`
+- Open a new terminal beside (split screen "hamburger") `:vert term`
 
 ## Folding
 Folds in vim are ways to hide blocks of text/code when you don't need to see them.
