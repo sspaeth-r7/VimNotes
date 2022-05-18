@@ -55,7 +55,7 @@
   - For example, `:%s/foo/bar/gc`
 
 ### Ranges
-- In place of using a `%` in a substitution command (such as `:%s/foo/bar`), you can use ranges
+- In place of using a `%` in a substitution command (which selects entire file - ex: `:%s/foo/bar`), you can use ranges
   - Apply from first to current line: `:1,.s/foo/bar`
   - Apply from current to last line: `:.,$s/foo/bar`
   - Apply from current to marker line: `:.,'xs/foo/bar`
