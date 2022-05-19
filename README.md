@@ -40,7 +40,7 @@
 - Jump to right after end of word and enter insert mode (like `A` does for lines): `ea`
 
 ### Jump to character
-Where `x` is the character you'd like to jump to;
+Where `x` is the character you'd like to jump to:
 - Jump to next occurrence of character on current line: `fx`
 - Jump to previous occurrence of character on current line: `Fx`
 - Next occurrence: `;`
