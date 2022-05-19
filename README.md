@@ -32,6 +32,7 @@
 - Move cursor to previous location: `^o`
 - Jump to previous empty line: `{`
 - Jump to next empty line: `}`
+- Jump to start of text on line (based off indentation) and insert: `I`
 - Jump to auto indent and enter insert mode: `S`
   - Rather than inserting at the beginning of the line, this will insert where the line *should* begin
 - Find case-insensitively: `/word\c`
