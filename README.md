@@ -35,6 +35,9 @@
 - Jump to auto indent and enter insert mode: `S`
   - Rather than inserting at the beginning of the line, this will insert where the line *should* begin
 - Find case-insensitively: `/word\c`
+- Make new line after current and enter insert mode: `o`
+- Make new line before current and enter insert mode: `O`
+- Jump to right after end of word and enter insert mode (like `A` does for lines): `ea`
 
 ### Jump to character
 Where `x` is the character you'd like to jump to;
