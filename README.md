@@ -36,6 +36,13 @@
   - Rather than inserting at the beginning of the line, this will insert where the line *should* begin
 - Find case-insensitively: `/word\c`
 
+### Jump to character
+Where `x` is the character you'd like to jump to;
+- Jump to next occurrence of character on current line: `fx`
+- Jump to previous occurrence of character on current line: `Fx`
+- Next occurrence: `;`
+- Previous occurrence: `,`
+
 ### Markers
 - Set a marker: `mx`
   - Where `x` is a character to name marker
