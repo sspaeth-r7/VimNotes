@@ -39,6 +39,9 @@
 - Make new line after current and enter insert mode: `o`
 - Make new line before current and enter insert mode: `O`
 - Jump to right after end of word and enter insert mode (like `A` does for lines): `ea`
+- Scroll to move current line to center of screen: `zz`
+  - Scroll current line to top: `zt`
+  - Scroll current line to bottom: `zb`
 
 ### Jump to character
 Where `x` is the character you'd like to jump to:
