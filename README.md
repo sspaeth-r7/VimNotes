@@ -92,6 +92,7 @@ but could also be used for having both terminal(s) and file(s) open in one vim p
 - Open a new vim window beside (split screen "hamburger"): `^wv`
 - Open a new terminal above (split screen "hot dog"): `:term`
 - Open a new terminal beside (split screen "hamburger") `:vert term`
+- Swap ('e'xchange) current window with next: `^wx`
 
 ## Folding
 Folds in vim are ways to hide blocks of text/code when you don't need to see them.
