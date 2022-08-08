@@ -104,6 +104,8 @@ By placing your cursor on any part of an existing fold, you can:
 - Collapse or 'c'lose the fold: `zc`
 - Expand or 'o'pen the fold: `zo`
 
+- Automatically create fold for each stage: `:%g/^\s*stage('.*{/normal! $zf%`
+
 ## Miscellaneous
 - Pretty prent a JSON file open in the editor: `:%!python -m json.tool`
 - Delete a word and enter insert mode "'c'hange 'w'ord": `cw`
