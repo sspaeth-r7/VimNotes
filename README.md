@@ -94,6 +94,15 @@ but could also be used for having both terminal(s) and file(s) open in one vim p
 - Open a new terminal beside (split screen "hamburger") `:vert term`
 - Swap ('e'xchange) current window with next: `^wx`
 
+## Tabulation
+In addition to windowing, vim also supports tabulation.
+- Open an empty buffer in a new tab: `:tabnew`
+- Open an existing file in a new tab: `:tabedit filename`
+- Go to next tab: `gt`
+- Go to previous tab: `gT`
+- Close a tab with the normal buffer close: `:q`
+- List every file open in each tab: `:tabs`
+
 ## Folding
 Folds in vim are ways to hide blocks of text/code when you don't need to see them.
 In other words, this feature allows you to "collapse" a function.
