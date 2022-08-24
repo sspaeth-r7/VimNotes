@@ -121,3 +121,4 @@ By placing your cursor on any part of an existing fold, you can:
   - Deletes everything right of cursor, so if you want to replace an entire word, run at beginning of it
   - Same idea applies to anything else, for instance: `ci{` or `ca(`
 - Swap current and line below: `ddp`
+- If syntax highlighting bugs out, refreshing syntax can help: `:syntax sync fromstart`
