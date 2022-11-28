@@ -115,6 +115,15 @@ By placing your cursor on any part of an existing fold, you can:
 
 - Automatically create fold for each stage: `:%g/^\s*stage('.*{/normal! $zf%`
 
+## Prediction
+Vim supports a VS code-like prediction menu. By default it's hidden but there's plugins to automatically show it when typing.
+- Open predictive menu while in insert mode: `^p`
+- If opened by mistake, to put original text back at cursor: `^n`
+  - Then resume typing or press escape
+- Cycle forward through predictions: `^p`
+- Cycle backward through predictions: `^n`
+- Use current prediction: `↩` or just start typing
+
 ## Miscellaneous
 - Pretty prent a JSON file open in the editor: `:%!python -m json.tool`
 - Delete a word and enter insert mode "'c'hange 'w'ord": `cw`
