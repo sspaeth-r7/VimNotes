@@ -124,6 +124,21 @@ Vim supports a VS code-like prediction menu. By default it's hidden but there's 
 - Cycle backward through predictions: `^n`
 - Use current prediction: `↩` or just start typing
 
+
+## Automatic Terraform formatting
+The following Vim command can be used to format the current Terraform file in the buffer:
+```bash
+silent execute '%!'.g:terraform_binary_path.' fmt -no-color -'
+```
+You could also run this on a write hook like so:
+https://vi.stackexchange.com/questions/25299/how-to-properly-hook-an-action-on-save-in-vim
+I made some progress on this but I'm not sure that it'll work due to hooking onto the `BufWritePre` event. It seems that you can't make changes after this event has been called. I'll maybe look into this later.
+```vim
+"For *.tf:
+"autocmd BufWritePre tf,terraform-vars execute '%!terraform fmt -no-color -'
+autocmd BufWritePre tf,terraform-vars silent execute '%!terraform fmt -no-color -'
+```
+
 ## Miscellaneous
 - Pretty prent a JSON file open in the editor: `:%!python -m json.tool`
 - Delete a word and enter insert mode "'c'hange 'w'ord": `cw`
