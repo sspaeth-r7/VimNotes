@@ -27,6 +27,9 @@
 - Delete blank lines in marker range: `:'x,.!grep .`
 - Replace multiple blank lines with one: `:%!cat -s`
   - From the `cat` manpage: `-s : Squeeze multiple adjacent empty lines, causing the output to be single spaced.`
+- Delete matching lines: `:g/pattern/d`
+  - Invert with: `:g!/pattern/d`
+- Delete empty lines: `:g/^$/d`
 
 ## Navigation
 - Move cursor to previous location: `^o`
