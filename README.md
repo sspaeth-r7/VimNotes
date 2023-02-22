@@ -117,9 +117,9 @@ By placing your cursor on any part of an existing fold, you can:
 - Collapse or 'c'lose the fold: `zc`
 - Expand or 'o'pen the fold: `zo`
 
-
 - Open all folds: `zR`
 - Close all folds: `zM`
+- Eliminate/delete all folds: `zE`
 
 - Automatically create fold for each stage: `:%g/^\s*stage('.*{/normal! $zf%`
 
