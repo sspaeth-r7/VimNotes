@@ -132,6 +132,10 @@ Vim supports a VS code-like prediction menu. By default it's hidden but there's 
 - Cycle backward through predictions: `^n`
 - Use current prediction: `↩` or just start typing
 
+## NetRW
+Open NetRW: `:Ex`
+Make a new directory: `d`
+Rename file/directory: `R`
 
 ## Automatic Terraform formatting
 The following Vim command can be used to format the current Terraform file in the buffer:
