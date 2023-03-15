@@ -71,6 +71,8 @@ Where `x` is the character you'd like to jump to:
 - When doing a find and replace, add a `c` to confirm each substitution
   - For example, `:%s/foo/bar/gc`
 - You can surround the current word with quotes like so: `ciw""<esc>P`
+- Replace the character right under your cursor with: `r<char>`
+  - Removes the need to switch to insert mode and back again
 
 ### Ranges
 - In place of using a `%` in a substitution command (which selects entire file - ex: `:%s/foo/bar`), you can use ranges
