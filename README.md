@@ -45,6 +45,8 @@
 - Scroll to move current line to center of screen: `zz`
   - Scroll current line to top: `zt`
   - Scroll current line to bottom: `zb`
+- Jump to next fold: `zj`
+- Jump to previous fold: `zk`
 
 ### Jump to character
 Where `x` is the character you'd like to jump to:
