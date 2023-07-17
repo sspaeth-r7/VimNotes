@@ -15,6 +15,8 @@
   - Delete 'a'll/'a'n of object including white space
 - Delete contents of quoted string: `di"`
   - Delete an 'i'nner object without white space
+- Delete contents of XML tag: `dit`
+  - Delete an 'i'nner contents of 't'ag
 - Delete entire code block: `d%`
   - With cursor at beginning of first line
 - Delete from current line to EOF: `dG`
