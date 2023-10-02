@@ -32,6 +32,7 @@
 - Delete matching lines: `:g/pattern/d`
   - Invert with: `:g!/pattern/d`
 - Delete empty lines: `:g/^$/d`
+- Delete from cursor to end of line: `D`
 
 ## Navigation
 - Move cursor to previous location: `^o`
@@ -164,3 +165,4 @@ autocmd BufWritePre tf,terraform-vars silent execute '%!terraform fmt -no-color 
   - Same idea applies to anything else, for instance: `ci{` or `ca(`
 - Swap current and line below: `ddp`
 - If syntax highlighting bugs out, refreshing syntax can help: `:syntax sync fromstart`
+- Yank from cursor to end of line: `Y`
